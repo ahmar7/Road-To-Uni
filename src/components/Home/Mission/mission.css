@@ -1,0 +1,45 @@
+.head-left img {
+  text-align: center;
+}
+.mt {
+  margin-top: 150px !important;
+  margin-bottom: 110px !important;
+}
+.text-right img {
+  margin-left: 50px !important;
+}
+.our-mission {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 43px;
+  line-height: 64px;
+  padding-left: 10px;
+  color: #2d2c2c;
+  border-left: 10px solid #f0b432;
+}
+
+.mission-para {
+  padding-left: 21px;
+  margin-top: 18px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+
+  /* Grays - 80 */
+
+  color: #595959;
+}
+.mission-highlight {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  padding-left: 21px;
+  margin-top: 12px;
+
+  color: #3b3b3b;
+}

@@ -1,0 +1,52 @@
+.main-header {
+  margin: 0 65px;
+}
+.header {
+  margin-top: 30px;
+  margin-bottom: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  /* background: #ffffff; */
+}
+.links ul {
+  padding: 0;
+  list-style: none;
+  display: inline;
+}
+.logo img {
+  width: 254px;
+  height: 72px;
+  cursor: pointer;
+}
+.links ul li {
+  display: inline;
+  margin: 0 25px;
+}
+.links ul li a {
+  font-family: "Poppins", sans-serif;
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 23px;
+  /* identical to box height, or 153% */
+
+  color: #000000;
+}
+.login-btn a {
+  padding: 10px 36px;
+  gap: 8px;
+
+  /* width: 116px;
+  height: 43px; */
+  color: white !important;
+
+  background: #e57601;
+  border-radius: 5px;
+}
+.signup-btn a {
+  color: #e57601 !important;
+}
