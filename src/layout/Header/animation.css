@@ -1,0 +1,40 @@
+.sticky {
+  position: fixed;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  top: 0;
+  width: 100%;
+  background: white;
+  z-index: 99999;
+  animation: navdown 0.5s both !important;
+}
+.overlay {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+}
+.overlay {
+  animation: overlaydown 0.3s both !important;
+}
+.animate-it {
+  animation: navup 0.3s both !important;
+}
+@keyframes overlaydown {
+  from {
+    background: transparent;
+  }
+  to {
+    background: rgba(26, 27, 28, 0.32);
+  }
+}
+@keyframes navup {
+  from {
+    right: -500px;
+  }
+  to {
+    right: 0;
+  }
+}

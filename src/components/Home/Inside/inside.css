@@ -29,3 +29,48 @@
 .align-right {
   margin-left: 20px;
 }
+.inside-right img {
+  width: 100%;
+}
+.inside {
+  align-items: center;
+}
+@media (max-width: 1200px) {
+  .inside-right {
+    width: 40% !important;
+  }
+  .inside-left {
+    width: 50% !important;
+  }
+}
+@media (max-width: 900px) {
+  .para-li {
+    width: auto;
+  }
+  .inside-ul {
+    padding: 0;
+  }
+}
+@media (max-width: 768px) {
+  .inside-left {
+    width: 100% !important;
+  }
+  .para-li {
+    justify-content: left;
+  }
+  .our-mission {
+    font-size: 35px !important;
+  }
+  .mission-para {
+    font-size: 16px !important;
+    padding-left: 10px;
+  }
+  .mission-highlight {
+    line-height: 27px;
+    padding-left: 10px;
+    font-size: 16px !important;
+  }
+  .inside-right {
+    width: 100% !important;
+  }
+}

@@ -44,7 +44,7 @@
   display: inline;
 }
 .input-sec input {
-  width: 80%;
+  width: 70%;
   height: 45px;
   border: none;
   outline: none;
@@ -66,6 +66,7 @@
 }
 .sub-section {
   width: 33%;
+  text-align: center;
 }
 .input-sec button {
   /* position: relative;
@@ -140,4 +141,38 @@
 
   color: #f7f7f7;
   padding: 0 65px 30px 65px;
+}
+@media (max-width: 950px) {
+  .sub-section {
+    width: 37%;
+  }
+  .footer {
+    margin: 0 30px;
+  }
+  .input-sec input {
+    width: 60%;
+  }
+}
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+  }
+  .white-logo {
+    text-align: center;
+  }
+  .sub-section {
+    width: 100%;
+  }
+  .input-sec input {
+    width: auto;
+  }
+}
+@media (max-width: 600px) {
+  .footer {
+    margin: 0 15px;
+  }
+  .copyright {
+    padding-left: 30px;
+    padding-right: 0;
+  }
 }

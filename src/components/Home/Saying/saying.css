@@ -79,3 +79,72 @@
   margin-top: 8px;
   color: #595959;
 }
+@media (max-width: 1000px) {
+  .saying-heading h3 {
+    font-size: 35px;
+  }
+  .saying-heading img {
+    width: 74px;
+  }
+}
+
+@media (max-width: 768px) {
+  .saying-heading h3 {
+    font-size: 30px;
+  }
+  .saying-heading img {
+    width: 65px;
+  }
+  .user-write {
+    font-size: 16px;
+  }
+  .user-name {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+  }
+  .user-review {
+    margin-left: 25px;
+    width: auto;
+  }
+  .inner-user img {
+    width: 100px;
+  }
+  .user-image {
+    background-size: contain;
+  }
+  .say {
+    margin: 0 30px;
+  }
+}
+@media (max-width: 600px) {
+  .saying-para {
+    flex-direction: column;
+  }
+  .user-review {
+    margin-top: 20px;
+    text-align: justify;
+    margin-left: 0;
+  }
+  .say {
+    margin: 0 15px;
+  }
+  .saying-heading h3 {
+    font-size: 25px;
+  }
+  .saying-heading img {
+    width: 60px;
+  }
+}
+
+@media (max-width: 395px) {
+  .saying-heading h3 {
+    line-height: normal;
+  }
+  .saying-heading img {
+    width: 60px;
+    top: -28px;
+    right: -45px;
+  }
+}

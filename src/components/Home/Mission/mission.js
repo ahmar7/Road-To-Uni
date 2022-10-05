@@ -5,10 +5,10 @@ const Mission = () => {
   return (
     <div className="main-section mt">
       <div className="head">
-        <div className="head-left text-right">
+        <div className="head-left text-right mission-left">
           <img src={MissionImg} alt="" />
         </div>
-        <div className="head-right">
+        <div className="head-right mission-right">
           <h3 className="our-mission">Our Mission</h3>
           <p className="mission-para">
             To guide first-generation, low-income students in successfully

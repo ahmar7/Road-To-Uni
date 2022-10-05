@@ -43,3 +43,31 @@
 
   color: #3b3b3b;
 }
+@media (max-width: 1000px) {
+  .mission-right {
+    width: 55% !important;
+  }
+  .mission-left {
+    width: 40% !important;
+  }
+  .mission-left img {
+    margin-left: 0 !important;
+  }
+}
+@media (max-width: 768px) {
+  .mission-left {
+    width: 100% !important;
+    text-align: center;
+  }
+  .mission-right {
+    width: 100% !important;
+  }
+  .mt {
+    margin-top: 100px !important;
+    margin-bottom: 100px !important;
+  }
+  .mission-left img {
+    margin-left: 0 !important;
+    width: 65%;
+  }
+}

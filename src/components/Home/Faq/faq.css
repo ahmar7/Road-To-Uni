@@ -73,3 +73,54 @@
 .top-marg {
   margin-top: 40px;
 }
+@media (max-width: 1000px) {
+  .faq {
+    margin-left: 30px;
+    /* margin-top: 220px !important; */
+    margin-right: 30px;
+  }
+  .img-flex img {
+    width: 250px;
+    margin-left: 0;
+  }
+}
+@media (max-width: 900px) {
+  .faq-area .our-mission {
+    font-size: 35px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .img-flex img {
+    width: 150px;
+  }
+  .faq-up {
+    flex-direction: column;
+  }
+  .img-flex {
+    text-align: center;
+  }
+  .img-flex img {
+    width: 200px;
+    margin-left: 0;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .faq-up,
+  .top-marg {
+    margin-left: 0;
+  }
+  .faq-up p {
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .paras h4 {
+    font-size: 20px !important;
+  }
+  .faq-area .our-mission {
+    font-size: 30px !important;
+    line-height: normal;
+  }
+}

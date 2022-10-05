@@ -9,7 +9,7 @@ import {
 import "./saying.css";
 const Saying = () => {
   return (
-    <div className="main-section  ">
+    <div className="main-section say  ">
       <div className="saying-heading">
         <img src={HeadingShadow} alt="" />
         <h3>What People Are Saying</h3>

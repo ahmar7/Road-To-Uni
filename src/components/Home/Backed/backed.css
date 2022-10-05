@@ -24,3 +24,25 @@
   width: 120px;
   height: 81.47px;
 }
+@media (max-width: 768px) {
+  .backed-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px !important;
+  }
+  .backed-img img {
+    width: 30%;
+    text-align: center;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 30px !important;
+    margin-bottom: 30px !important;
+  }
+  .mt {
+    margin-top: 100px !important;
+    margin-bottom: 78px !important;
+  }
+}

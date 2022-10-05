@@ -4,8 +4,8 @@ import "./inside.css";
 const Inside = () => {
   return (
     <div className="main-section mt">
-      <div className="head">
-        <div className="head-left">
+      <div className="head inside">
+        <div className="head-left inside-left">
           <h3 className="our-mission">What’s Inside</h3>
           <ul className="inside-ul">
             <li className="para-li">
@@ -42,7 +42,7 @@ const Inside = () => {
             </li>
           </ul>
         </div>
-        <div className="head-right text-center">
+        <div className="head-right  inside-right text-center">
           <img src={InsideImgs} alt="" />
         </div>
       </div>
