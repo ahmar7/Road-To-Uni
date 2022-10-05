@@ -1,11 +1,13 @@
 .sticky {
   position: fixed;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
   top: 0;
   width: 100%;
   background: white;
   z-index: 99999;
   animation: navdown 0.5s both !important;
+  padding-bottom: 5px;
 }
 .overlay {
   width: 100vw;
@@ -15,12 +17,16 @@
   right: 0;
   bottom: 0;
   position: fixed;
+  z-index: 99;
 }
 .overlay {
   animation: overlaydown 0.3s both !important;
 }
 .animate-it {
   animation: navup 0.3s both !important;
+}
+.sticky .header {
+  margin-top: 15px;
 }
 @keyframes overlaydown {
   from {
@@ -36,5 +42,21 @@
   }
   to {
     right: 0;
+  }
+}
+@keyframes navdown {
+  from {
+    top: -100px;
+  }
+  to {
+    top: 0;
+  }
+}
+@media (max-width: 768px) {
+  .sticky {
+    padding-bottom: 0px;
+  }
+  .sticky .header {
+    margin-top: 5px;
   }
 }

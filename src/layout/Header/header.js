@@ -22,7 +22,7 @@ const Header = () => {
     document.body.classList.remove("active-modal");
   }
   window.addEventListener("scroll", function () {
-    let header = this.document.querySelector("#header2");
+    let header = this.document.querySelector("#header");
 
     if (window.scrollY > 150) {
       header.classList.add("sticky");
@@ -31,8 +31,8 @@ const Header = () => {
     }
   });
   return (
-    <div className="main-header">
-      <div className="header">
+    <div className="" id="header">
+      <div className="header main-header">
         <div className="logo">
           <img src={Img} alt="" />
         </div>
@@ -44,19 +44,29 @@ const Header = () => {
               <i class="fa-sharp fa-solid fa-x"></i>
             </li>
             <li>
-              <Link to="/">Home</Link>
+              <Link onClick={closeBar} to="/">
+                Home
+              </Link>
             </li>
             <li>
-              <Link to="">About</Link>
+              <Link onClick={closeBar} to="">
+                About
+              </Link>
             </li>
             <li>
-              <Link to="">Blog</Link>
+              <Link onClick={closeBar} to="">
+                Blog
+              </Link>
             </li>
             <li className="login-btn">
-              <Link to="/login">Log In</Link>
+              <Link onClick={closeBar} to="/login">
+                Log In
+              </Link>
             </li>
             <li className="signup-btn">
-              <Link to="/signup">Sign Up</Link>
+              <Link onClick={closeBar} to="/signup">
+                Sign Up
+              </Link>
             </li>
           </ul>
           <span onClick={toggleBar} className="nav-icon">
