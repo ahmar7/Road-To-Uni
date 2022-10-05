@@ -18,12 +18,17 @@ const SignupPage = () => {
             <div className="input-fields">
               <div className="block-field">
                 <label htmlFor="">Enter your username or email address</label>
-                <input type="text" placeholder="Username or email address" />
+                <input
+                  required
+                  type="email"
+                  placeholder="Username or email address"
+                />
               </div>
               <div className="inline-field">
                 <div className="half-field">
                   <label htmlFor="">User name</label>
                   <input
+                    required
                     className="less-width"
                     type="text"
                     placeholder="User name"
@@ -32,15 +37,16 @@ const SignupPage = () => {
                 <div className="half-field left-align">
                   <label htmlFor="">Contact Number</label>
                   <input
+                    required
                     className="less-width"
-                    type="text"
+                    type="number"
                     placeholder="Contact Number"
                   />
                 </div>
               </div>
               <div className="block-field">
                 <label htmlFor="">Enter your Password</label>
-                <input type="password" placeholder="Password" />
+                <input required type="password" placeholder="Password" />
               </div>
               <div className="signup-btn">
                 <button>Sign Up</button>

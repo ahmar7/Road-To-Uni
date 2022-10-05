@@ -29,13 +29,17 @@ const LoginPage = () => {
             <div className="input-fields sign-fields">
               <div className="block-field">
                 <label htmlFor="">Enter your username or email address</label>
-                <input type="text" placeholder="Username or email address" />
+                <input
+                  type="email"
+                  required
+                  placeholder="Username or email address"
+                />
               </div>
               <br />
 
               <div className="block-field">
                 <label htmlFor="">Enter your Password</label>
-                <input type="password" placeholder="Password" />
+                <input required type="password" placeholder="Password" />
                 <p className="forget-color">
                   <a href="">Forgot Password</a>
                 </p>
