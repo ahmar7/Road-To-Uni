@@ -112,10 +112,14 @@
     width: 100px;
   }
   .user-image {
-    background-size: contain;
+    background-size: 112px;
   }
   .say {
     margin: 0 30px;
+  }
+  .inner-user {
+    padding-top: 9px;
+    padding-left: 12px;
   }
 }
 @media (max-width: 600px) {

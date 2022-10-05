@@ -113,6 +113,11 @@
   .faq-up p {
     width: 100%;
   }
+  .faq {
+    margin-left: 15px;
+    /* margin-top: 220px !important; */
+    margin-right: 15px;
+  }
 }
 
 @media (max-width: 600px) {
