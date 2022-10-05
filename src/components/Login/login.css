@@ -1,0 +1,113 @@
+.welcome-tag {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #000000;
+}
+.na-c {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 24px;
+  text-align: right;
+
+  color: #8d8d8d;
+}
+.top-li {
+  display: flex;
+  justify-content: space-between;
+}
+h6 {
+  margin: 0;
+}
+.forget-color {
+  text-align: right;
+}
+.forget-color a {
+  color: #ad3113;
+}
+.opt {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+  text-align: center !important;
+  margin: 15px 0 !important;
+  color: #ababab;
+}
+.other-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.google {
+  background: #fff4e3;
+  border-radius: 9px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding: 15px 5px;
+  margin: 0 10px;
+  width: 178px;
+}
+.google span {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  margin-left: 12px;
+
+  color: #b87514;
+}
+.facebook,
+.apple {
+  padding: 10px 15px;
+
+  margin: 0 10px;
+  background: #f7f7f7;
+  border-radius: 9px;
+}
+@media (min-width: 1301px) {
+  .login-img img {
+    width: 360px;
+  }
+  .login-popup {
+    padding: 40px 35px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .sign-fields {
+    margin-top: 0px !important;
+  }
+  .welcome-tag {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #000000;
+  }
+}
+
+@media (max-width: 1000px) {
+  .facebook,
+  .apple {
+    margin: 0 4px;
+  }
+  .google {
+    margin: 0 5px;
+  }
+}
+
+@media (max-width: 400px) {
+  .google span {
+    font-size: 12px;
+    margin-left: 2px;
+  }
+}

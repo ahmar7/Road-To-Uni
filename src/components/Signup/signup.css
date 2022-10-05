@@ -203,8 +203,10 @@
 }
 @media (max-width: 900px) {
   .popup-sign {
-    width: 40vw;
+    width: 43vw;
   }
+}
+@media (max-width: 900px) {
   .signup-img img {
     width: 235px;
   }

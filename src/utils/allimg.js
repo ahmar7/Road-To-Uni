@@ -23,6 +23,9 @@ import LinkdinIcon from "../assets/img/telegram.png";
 import YoutubeIcon from "../assets/img/youtube.png";
 import FacebookIcon from "../assets/img/fb.png";
 import SignupImg from "../assets/img/signup.png";
+import ColorGoogle from "../assets/img/google.png";
+import ColorFb from "../assets/img/Facebook.png";
+import ColorApple from "../assets/img/apple.png";
 
 export {
   Img,
@@ -50,4 +53,7 @@ export {
   YoutubeIcon,
   FacebookIcon,
   SignupImg,
+  ColorApple,
+  ColorFb,
+  ColorGoogle,
 };

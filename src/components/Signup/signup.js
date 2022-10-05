@@ -40,7 +40,7 @@ const SignupPage = () => {
               </div>
               <div className="block-field">
                 <label htmlFor="">Enter your Password</label>
-                <input type="text" placeholder="Password" />
+                <input type="password" placeholder="Password" />
               </div>
               <div className="signup-btn">
                 <button>Sign Up</button>
@@ -51,7 +51,10 @@ const SignupPage = () => {
         <div className=" left-orange"></div>
         <div className=" right-white">
           <div className="uni-logo">
-            <img src={Img} />
+            <Link to="/">
+              {" "}
+              <img src={Img} />
+            </Link>
           </div>
           <div className="signup-img">
             <img src={SignupImg} alt="" />
