@@ -22,6 +22,7 @@ import InstagramIcon from "../assets/img/intsa.png";
 import LinkdinIcon from "../assets/img/telegram.png";
 import YoutubeIcon from "../assets/img/youtube.png";
 import FacebookIcon from "../assets/img/fb.png";
+import SignupImg from "../assets/img/signup.png";
 
 export {
   Img,
@@ -48,4 +49,5 @@ export {
   LinkdinIcon,
   YoutubeIcon,
   FacebookIcon,
+  SignupImg,
 };
