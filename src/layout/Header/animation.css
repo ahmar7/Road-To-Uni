@@ -20,7 +20,7 @@
   z-index: 99;
   /* filter: blur(8px); */
   /* -webkit-filter: blur(8px); */
-  backdrop-filter: blur(3px); /* Center and scale the image nicely */
+  backdrop-filter: blur(4px); /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
