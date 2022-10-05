@@ -6,3 +6,70 @@
 .faq-para {
   margin-top: 50px;
 }
+
+.top-marg h4,
+.faq-up h4 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 42px;
+  display: flex;
+  align-items: center;
+  display: inline;
+
+  /* Grays - 100 */
+
+  color: #2d2c2c;
+}
+
+.faq-up {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.faq-up,
+.top-marg {
+  margin-left: 10px;
+}
+.up-arrow {
+  /* position: absolute;
+  
+  left: 0; */
+  position: relative;
+  margin-right: -32px;
+  top: 5px;
+}
+
+.down-arrow {
+  position: relative;
+  margin-left: -32px;
+  top: 20px;
+}
+.faq-up p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 30px;
+  width: 60vw;
+
+  color: #000000;
+}
+.top-marg p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 30px;
+
+  color: #000000;
+}
+.img-flex img {
+  margin-left: 20px;
+}
+.top-marg {
+  margin-top: 40px;
+}

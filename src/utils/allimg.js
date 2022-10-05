@@ -1,4 +1,5 @@
 import Img from "../assets/img/logo.png";
+import WhiteLogo from "../assets/img/white-logo.png";
 import Managment from "../assets/img/managment.png";
 import MissionImg from "../assets/img/mission.png";
 import InsideImgs from "../assets/img/inside.png";
@@ -15,9 +16,16 @@ import Backed2 from "../assets/img/backed2.png";
 import Backed3 from "../assets/img/backed3.png";
 import Up from "../assets/img/upborder.png";
 import Down from "../assets/img/downborder.png";
+import FaqImg from "../assets/img/faq.png";
+import SendButton from "../assets/img/send.png";
+import InstagramIcon from "../assets/img/intsa.png";
+import LinkdinIcon from "../assets/img/telegram.png";
+import YoutubeIcon from "../assets/img/youtube.png";
+import FacebookIcon from "../assets/img/fb.png";
 
 export {
   Img,
+  WhiteLogo,
   Managment,
   MissionImg,
   InsideImgs,
@@ -34,4 +42,10 @@ export {
   Backed3,
   Up,
   Down,
+  FaqImg,
+  SendButton,
+  InstagramIcon,
+  LinkdinIcon,
+  YoutubeIcon,
+  FacebookIcon,
 };

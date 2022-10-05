@@ -50,3 +50,12 @@
 .signup-btn a {
   color: #e57601 !important;
 }
+@media (max-width: 950px) {
+  .main-header {
+    margin: 0 30px;
+  }
+  .links ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+}
