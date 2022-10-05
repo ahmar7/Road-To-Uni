@@ -1,0 +1,19 @@
+.sign-area {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+}
+.left-orange {
+  background-color: #e57601;
+}
+.left-orange,
+.right-white {
+  width: 50%;
+  height: 100vh;
+}
+.uni-logo {
+  position: absolute;
+  right: 0;
+  top: 0;
+}

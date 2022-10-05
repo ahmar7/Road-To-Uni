@@ -18,6 +18,12 @@
   bottom: 0;
   position: fixed;
   z-index: 99;
+  /* filter: blur(8px); */
+  /* -webkit-filter: blur(8px); */
+  backdrop-filter: blur(3px); /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .overlay {
   animation: overlaydown 0.3s both !important;
