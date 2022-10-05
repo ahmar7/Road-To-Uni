@@ -164,7 +164,11 @@
     width: 100%;
   }
   .input-sec input {
-    width: auto;
+    width: 60%;
+  }
+  .input-sec button {
+    height: 45.5px;
+    padding: 4px 15px;
   }
 }
 @media (max-width: 600px) {
