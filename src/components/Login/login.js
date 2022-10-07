@@ -45,7 +45,9 @@ const LoginPage = () => {
                 </p>
               </div>
               <div className="signup-btn">
-                <button>Sign Up</button>
+                <Link to="/userdashboard">
+                  <button>Sign In</button>
+                </Link>
               </div>
               <p className="opt">OR</p>
               <div className="other-links">

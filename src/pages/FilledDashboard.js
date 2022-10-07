@@ -1,7 +1,12 @@
 import React from "react";
+import Dashboard from "../components/FIlledDashboard/dashboard";
 
 const FilledDashboard = () => {
-  return <div></div>;
+  return (
+    <div>
+      <Dashboard />
+    </div>
+  );
 };
 
 export default FilledDashboard;
