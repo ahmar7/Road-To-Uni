@@ -26,6 +26,12 @@ import SignupImg from "../assets/img/signup.png";
 import ColorGoogle from "../assets/img/google.png";
 import ColorFb from "../assets/img/Facebook.png";
 import ColorApple from "../assets/img/apple.png";
+import SquareIcon from "../assets/img/dashboard-icons/Icon-SquaresFour.png";
+import BookmarkIcon from "../assets/img/dashboard-icons/Icon-BookBookmark.png";
+import BrushIcon from "../assets/img/dashboard-icons/Icon-PaintBrushHousehold.png";
+import WrenchIcon from "../assets/img/dashboard-icons/Icon-Wrench.png";
+import GearIcon from "../assets/img/dashboard-icons/Icon-Gear.png";
+import MagnifyIcon from "../assets/img/dashboard-icons/Icon-MagnifyingGlass.png";
 
 export {
   Img,
@@ -56,4 +62,10 @@ export {
   ColorApple,
   ColorFb,
   ColorGoogle,
+  SquareIcon,
+  BookmarkIcon,
+  BrushIcon,
+  WrenchIcon,
+  GearIcon,
+  MagnifyIcon,
 };
