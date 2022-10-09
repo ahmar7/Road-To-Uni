@@ -1,0 +1,161 @@
+/* body {
+    background: #ccc;
+} */
+.relative-area {
+    position: relative;
+}
+
+.Apper {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.slick-slider {
+    position: static;
+}
+
+.slick-next {
+    right: 0;
+}
+
+.slick-slide>div {
+    margin: 0 10px;
+}
+
+.slick-list {
+    margin: 0 -10px;
+}
+
+.card {
+
+    overflow: hidden;
+
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+
+    padding: 25px 30px 18px 30px;
+    box-sizing: border-box;
+
+
+    background: rgba(233, 211, 176, 0.3);
+    border-radius: 10px;
+}
+
+.card-top h1 {
+    font-size: 0.9rem;
+    margin: 20px;
+}
+
+
+
+.card-one>img {
+    width: 90%;
+    background: #FF8D75;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.card-two>img {
+
+    width: 90%;
+    margin: 0 auto;
+    background: #F5C662;
+    border-radius: 5px;
+}
+
+.card-bottom {
+    margin: 10px 0px;
+}
+
+.category {
+    position: relative;
+}
+
+.category::before {
+    content: '';
+    background: rgb(255, 61, 61);
+    position: absolute;
+    top: calc(100% + 10px);
+    left: 0;
+    right: 0;
+    height: 2px;
+}
+
+.slick-dots {
+    display: none !important;
+}
+
+.slick-slide.slick-active.slick-current {
+    /* min-width: 400px !important; */
+}
+
+.card-top h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+
+    line-height: initial !important;
+    text-align: center;
+
+    margin: 0;
+    margin-top: 5px;
+
+    color: #2D2C2C;
+
+}
+
+.slick-next {
+
+    /* RTU Neutrals - 50 */
+
+    background: #E9D3B0;
+    border-radius: 10px 0px 0px 10px;
+
+    background: #E9D3B0;
+    border-radius: 10px 0px 0px 10px;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    padding: 41px 12px;
+}
+
+.slick-prev:before, .slick-next:before {
+    color: rgba(163, 112, 2, 0.5) !important;
+}
+
+.slick-arrow.slick-prev.slick-disabled {
+
+
+
+    background: #ffffff;
+    color: white;
+}
+
+.slick-prev {
+    left: 0 !important;
+    /* RTU Neutrals - 50 */
+
+    background: #E9D3B0;
+    border-radius: 0px 10px 10px 0px;
+
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    padding: 41px 12px;
+}
+
+@media (max-width:1265px) {
+
+    .slick-slide .card {
+        height: 360px;
+    }
+}
+
+@media (max-width:480px) {
+
+    .slick-slide .card {
+        height: auto;
+    }
+}

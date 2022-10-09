@@ -1,0 +1,12 @@
+ .new .CircularProgressbar .CircularProgressbar-trail {
+     stroke: rgba(184, 184, 184, 1) !important;
+ }
+
+ .react-calendar__tile--now {
+     background-color: transparent !important;
+ }
+
+ .react-calendar__tile--active {
+     background: #F0B432 !important;
+     border-radius: 100px;
+ }

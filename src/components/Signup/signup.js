@@ -49,7 +49,7 @@ const SignupPage = () => {
                 <input required type="password" placeholder="Password" />
               </div>
               <div className="signup-btn">
-                <Link to="/userdashboard">
+                <Link to="/newdashboard">
                   <button>Sign Up</button>
                 </Link>
               </div>

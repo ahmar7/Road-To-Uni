@@ -1,7 +1,7 @@
 export const dataDigitalBestSeller = [
   {
     id: 1,
-    title: "Mario Kart™ 8 Deluxe",
+    title: "Letters of Recommendation",
     price: "$59.99",
     category: "Nintendo Switch",
     linkImg:

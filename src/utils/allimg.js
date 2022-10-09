@@ -32,6 +32,11 @@ import BrushIcon from "../assets/img/dashboard-icons/Icon-PaintBrushHousehold.pn
 import WrenchIcon from "../assets/img/dashboard-icons/Icon-Wrench.png";
 import GearIcon from "../assets/img/dashboard-icons/Icon-Gear.png";
 import MagnifyIcon from "../assets/img/dashboard-icons/Icon-MagnifyingGlass.png";
+import WorkImg from "../assets/img/work-img.png";
+import PlayIco from "../assets/img/Icon-PlayCircle.png";
+import InfoIco from "../assets/img/Icon-Info.png";
+import SliderImg from "../assets/img/slider.png";
+import DashProfile from "../assets/img/dashprofile.png";
 
 export {
   Img,
@@ -68,4 +73,9 @@ export {
   WrenchIcon,
   GearIcon,
   MagnifyIcon,
+  WorkImg,
+  PlayIco,
+  InfoIco,
+  SliderImg,
+  DashProfile,
 };

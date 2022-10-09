@@ -11,14 +11,14 @@
 }
 
 .navigation-area {
-    width: 19%;
+    width: 17%;
     /* border: 1px solid red; */
     height: 100%;
 }
 
 .web-logo {
     margin: 0 auto;
-    margin-bottom: 20px !important;
+    /* margin-bottom: 20px !important; */
 
     text-align: center;
 }
@@ -29,18 +29,18 @@
 
 .dashboard-area {
 
-    width: 60%;
+    width: 55%;
     /* border: 1px solid blue; */
-    height: 50vh;
-    margin-left: 20px;
+
+    margin-left: 25px;
 
 }
 
 .event-area {
-    width: 30%;
+    width: 25%;
     /* border: 1px solid red; */
-    height: 50vh;
-    margin-left: 20px;
+
+    margin-left: 25px;
 
 }
 
@@ -126,9 +126,7 @@
     margin-bottom: 10px !important;
 }
 
-.dashboard-area {
-    margin-top: 5px;
-}
+.dashboard-area {}
 
 .dash-field input {
     outline: none;
@@ -152,11 +150,681 @@
 }
 
 .work-area {
-
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    /* margin-top: 37px; */
     background: #FDC334;
     border: 1px solid rgba(255, 255, 255, 0.3);
     backdrop-filter: blur(6px);
     /* Note: backdrop-filter has minimal browser support */
 
     border-radius: 20px;
+}
+
+.calender-area {
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    /* margin-top: 37px; */
+    /* Note: backdrop-filter has minimal browser support */
+    background: rgba(255, 255, 255, 0.6);
+    /* Grays - 10 */
+
+    border: 1px solid #F5F5F5;
+    backdrop-filter: blur(6px);
+    border-radius: 20px;
+    border-radius: 20px;
+}
+
+.dash-field, .web-logo {
+    height: 12vh
+}
+
+.work-area h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    /* Grays - 100 */
+
+    color: #2D2C2C;
+
+}
+
+.img-para {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.paragraph p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    /* Grays - 100 */
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color: #2D2C2C;
+
+}
+
+.paragraph ol {
+    padding-left: 25px;
+
+}
+
+.paragraph ol li {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2D2C2C;
+
+}
+
+.start-btn button {
+    padding: 10px 36px;
+    gap: 8px;
+
+
+
+    /* RTU P1 - 50 */
+    margin-left: 7px;
+    background: #B43217;
+    /* Shadow - 10 */
+    color: white;
+    border: none;
+    outline: none;
+    box-shadow: 0px 4px 10px -2px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+.how-heading span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    /* RTU P1 - 60 */
+
+    color: #AD260A;
+    margin-right: 10px;
+
+}
+
+.how-heading {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.circular-progress {
+    margin-top: 20px;
+    padding: 20px 20px 30px 20px;
+
+    background: rgba(255, 255, 255, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(6px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+.progress-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+
+}
+
+.progress-heading img {
+
+    margin-left: 10px;
+}
+
+.progress-heading h3 {
+
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+
+    text-align: center;
+
+    /* Grays - 90 */
+
+    color: #3B3B3B;
+}
+
+.progress-circle {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.CircularProgressbar {
+    width: 45%;
+}
+
+.per-area {
+    text-align: center;
+    /* margin-left: 20px;
+    margin-right: 20px; */
+}
+
+.per-area p {
+    margin-top: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #000000;
+
+}
+
+.bg1 .CircularProgressbar .CircularProgressbar-trail,
+.bg2 .CircularProgressbar .CircularProgressbar-trail,
+.bg3 .CircularProgressbar .CircularProgressbar-trail {
+    stroke: rgb(245, 245, 245) !important;
+}
+
+
+
+.bg2 .CircularProgressbar .CircularProgressbar-path {
+    stroke: #EC4B36 !important;
+}
+
+.bg3 .CircularProgressbar .CircularProgressbar-path {
+    stroke: #E57601 !important;
+}
+
+.bg1 .CircularProgressbar .CircularProgressbar-path {
+    stroke: #FFBE21 !important;
+}
+
+.CircularProgressbar-text {
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600 !important;
+    font-size: 30px !important;
+    /* identical to box height */
+
+    text-align: center;
+
+    /* Grays - 100 */
+
+    fill: #2D2C2C !important;
+
+}
+
+.view-heading {
+    /* Heading 4 */
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 42px;
+    /* identical to box height */
+
+
+    /* Grays - 90 */
+
+    color: #3B3B3B;
+}
+
+
+
+.wrapper {
+    border: none;
+}
+
+.container {
+    border-radius: 30px;
+    background: #FFD883
+}
+
+
+.barCompleted {
+    background-color: #E2AB35;
+    height: 13px;
+    width: 42%;
+    transition: width 1s ease-in-out 0s;
+    border-radius: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.barCompletedtwo {
+    background-color: #E2AB35;
+    height: 13px;
+    width: 60%;
+    transition: width 1s ease-in-out 0s;
+    border-radius: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.labelclor {
+    color: black !important;
+    font-size: 14px !important;
+}
+
+.view-red {
+    text-align: center;
+}
+
+.view-red a {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    /* identical to box height */
+
+    text-align: center;
+
+    /* RTU P1 - 50 */
+
+    color: #B43217;
+
+}
+
+.align-left {
+    text-align: left;
+}
+
+.dash-profile {
+    height: 12vh;
+    text-align: right;
+}
+
+.dash-profile img {
+
+
+    width: 55px;
+}
+
+.react-calendar {
+    width: auto !important;
+
+    background: transparent !important;
+    border: none !important;
+    font-family: 'Poppins' !important;
+    line-height: 1.125em;
+}
+
+abbr[title] {
+    text-decoration: none !important;
+}
+
+.imp-dates {
+    margin-top: 50px;
+}
+
+.imp-dates h3 {
+    /* Heading 5 */
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+
+
+    /* Grays - 90 */
+
+    color: #3B3B3B;
+}
+
+.date-notes {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+.date-name p {
+    text-align: center;
+}
+
+.date-para {
+    margin-left: 20px;
+}
+
+.date-para p {
+    margin: 0;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    /* identical to box height */
+
+
+    /* Grays - 60 */
+
+    color: #959595;
+
+
+}
+
+.date-para h5 {
+    margin: 0;
+    margin-bottom: 1px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+}
+
+.dashboard-bar i {
+
+    font-size: 30px;
+
+
+}
+
+.dashboard-bar {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.dashboard-bar {
+    display: none;
+}
+
+.dashbrd {
+    color: black !important;
+}
+
+@media (max-width:1315px) {
+    .navigationbtn-area ul li {
+
+        width: 150px;
+    }
+
+    .navigationbtn-area ul li .ico {
+        margin-left: 11px;
+    }
+}
+
+@media (max-width:1166px) {
+    .dashboard-area {
+
+
+        margin-left: 18px;
+
+    }
+
+    .work-img img {
+        width: 150px;
+    }
+
+    .event-area {
+
+        margin-left: 18px;
+
+    }
+}
+
+@media (max-width:1050px) {
+    .navigationbtn-area ul li {
+        width: 130px;
+    }
+
+    .navigationbtn-area ul li button {
+        margin-left: 0px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 27px;
+        border: none;
+        outline: none;
+        background: transparent;
+        color: #2D2C2C;
+    }
+}
+
+@media (max-width:1000px) {
+    .inner-dashboard {
+        padding-right: 25px;
+    }
+
+    .calender-area {
+        padding: 10px;
+    }
+}
+
+@media (max-width:900px) {
+    .navigationbtn-area ul li {
+        width: 166px;
+    }
+
+    .navigationbtn-area ul li .ico {
+        margin-left: 26px;
+    }
+
+    .dashbrd i {
+        margin-left: 75px;
+        color: black !important;
+    }
+
+    .show-dash {
+        display: block !important;
+        position: fixed;
+        z-index: 99999;
+        height: 100vh;
+        animation: dashup 0.3s both !important;
+    }
+
+
+
+    .dashboard-bar {
+        top: 10px;
+        position: relative;
+    }
+
+    .web-logo {
+        display: flex;
+        align-items: center;
+        justify-content: left;
+    }
+
+    .dashboard-bar {
+        display: block;
+    }
+
+    .navigation-area {
+        width: auto;
+
+    }
+
+    .web-logo img {
+        width: 45%;
+    }
+
+    .inner-dashboard {
+        flex-direction: column;
+    }
+
+    .navigationbtn-area {
+        display: none;
+    }
+
+    .dash-field, .web-logo {
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .dashboard-area {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .inner-dashboard {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .slick-dots {
+        display: none !important;
+    }
+
+    .event-area {
+        width: 95%;
+        /* border: 1px solid red; */
+        margin: 0 auto;
+        margin-top: 25px;
+    }
+
+    .dash-profile {
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .imp-dates {
+        margin-left: 10px;
+    }
+
+    .inner-dashboard {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+
+}
+
+@media (max-width:540px) {
+
+    .web-logo {
+        display: flex;
+        align-items: center;
+        justify-content: left;
+    }
+
+    .dashboard-bar {
+        position: relative;
+        top: 8px;
+        margin-left: 10px;
+        margin-right: 20px;
+    }
+
+    .img-para {
+        flex-direction: column;
+    }
+
+    .work-img {
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .work-area {
+        padding: 14px;
+    }
+
+    .paragraph p {
+
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+
+    .how-heading {
+
+        margin-left: 15px;
+
+    }
+
+    .how-heading span {
+        font-size: 13px;
+    }
+
+    .start-btn button {
+        padding: 10px 27px;
+
+        margin-left: 7px;
+
+    }
+
+    .navigation-area {
+        width: 100%;
+    }
+
+    .web-logo img {
+        width: 50%;
+    }
+
+    .web-logo {
+
+        text-align: left;
+        margin-left: 10px;
+    }
+
+    .work-area {
+        padding: 14px;
+    }
+
+    .progress-circle {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .CircularProgressbar {
+        width: 35%;
+    }
+
+    .per-area {
+        margin: 25px 0;
+
+    }
+
+    .dash-field input {
+        outline: none;
+        border: none;
+        padding: 10px 5px 10px 46px;
+        font-size: 16px;
+    }
+}
+
+@keyframes dashup {
+    from {
+        left: -500px;
+    }
+
+    to {
+        left: 0;
+    }
 }

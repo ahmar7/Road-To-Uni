@@ -70,7 +70,6 @@ const Header = () => {
             </li>
           </ul>
           <span onClick={toggleBar} className="nav-icon">
-            {" "}
             <i class="fa-solid fa-bars"></i>
           </span>
         </div>

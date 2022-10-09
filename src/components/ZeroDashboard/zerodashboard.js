@@ -23,12 +23,12 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "react-circular-progressbar/dist/styles.css";
-import "./carousel.css";
+
 import { dataDigitalBestSeller } from "../../data/data";
 import imgGirl from "../../assets/img/defaultImage.jpg";
 
-import "./dashboard.css";
-const Dashboard = () => {
+import "./zerodashboard.css";
+const NewDashboard = () => {
   const [sideactive, setSideactive] = useState(false);
 
   const toggleBar = () => {
@@ -85,9 +85,9 @@ const Dashboard = () => {
     }));
   };
 
-  const percentageclg = 68;
-  const percentagemodule = 55;
-  const percentageworkshop = 30;
+  const percentageclg = 0;
+  const percentagemodule = 0;
+  const percentageworkshop = 0;
   if (sideactive) {
     document.body.classList.add("active-modal");
   } else {
@@ -176,11 +176,13 @@ const Dashboard = () => {
                 <p>Applying to college is a whole project! We get it. </p>
                 <ol>
                   <li>
-                    Applying to college is a whole project! We get it. Learn
-                    everything you need to know to make the right decisions
-                    through your ‘Modules.’
+                    <b>Learn </b> everything you need to know to make the right
+                    decisions through your <b>Modules</b> .
                   </li>
-                  <li> Keep track of your to-do’s in your ‘Workspace.’</li>
+                  <br />
+                  <li>
+                    <b>Track</b> your to-do’s in your <b>Workspace</b> .
+                  </li>
                 </ol>
               </div>
               <div className="work-img">
@@ -201,80 +203,20 @@ const Dashboard = () => {
               <img src={InfoIco} alt="" />
             </div>
             <div className="progress-circle">
-              <div className="per-area bg1">
-                <CircularProgressbar value={percentageclg} text={`${68}%`} />
+              <div className="per-area bg1 new">
+                <CircularProgressbar value={percentageclg} text={`${0}%`} />
                 <p>My College Apps</p>
               </div>
-              <div className="per-area bg2">
-                <CircularProgressbar value={percentagemodule} text={`${55}%`} />
+              <div className="per-area bg2 new">
+                <CircularProgressbar value={percentagemodule} text={`${0}%`} />
                 <p>My Modules</p>
               </div>
-              <div className="per-area bg3">
+              <div className="per-area bg3 new">
                 <CircularProgressbar
                   value={percentageworkshop}
-                  text={`${30}%`}
+                  text={`${0}%`}
                 />
                 <p>My Workspace</p>
-              </div>
-            </div>
-          </div>
-          <div className="circular-progress relative-area">
-            <div className="view-heading">
-              <h3>Recently Viewed</h3>
-              <div className="Apper">
-                <Slider {...settings}>
-                  <div className="card">
-                    <div className="card-top card-one">
-                      <img src={SliderImg} onError={handleErrorImage} />
-                      <h1>Letters of Recommendation</h1>
-                    </div>
-                    <div className="card-bottom">
-                      <ProgressBar
-                        completed={42}
-                        completedClassName="barCompleted"
-                        barContainerClassName="container"
-                        labelClassName="labelclor"
-                      />
-                    </div>
-                    <div className="view-red">
-                      <Link>View More</Link>
-                    </div>
-                  </div>
-                  <div className="card">
-                    <div className="card-top card-two">
-                      <img src={SliderImg} onError={handleErrorImage} />
-                      <h1>FAFSA</h1>
-                    </div>
-                    <div className="card-bottom">
-                      <ProgressBar
-                        completed={60}
-                        completedClassName="barCompletedtwo"
-                        barContainerClassName="container"
-                        labelClassName="labelclor"
-                      />
-                    </div>
-                    <div className="view-red align-left">
-                      <Link>Resume</Link>
-                    </div>
-                  </div>
-                  <div className="card">
-                    <div className="card-top card-one">
-                      <img src={SliderImg} onError={handleErrorImage} />
-                      <h1>Letters of Recommendation</h1>
-                    </div>
-                    <div className="card-bottom">
-                      <ProgressBar
-                        completed={42}
-                        completedClassName="barCompleted"
-                        barContainerClassName="container"
-                        labelClassName="labelclor"
-                      />
-                    </div>
-                    <div className="view-red">
-                      <Link>View More</Link>
-                    </div>
-                  </div>
-                </Slider>
               </div>
             </div>
           </div>
@@ -464,4 +406,4 @@ const Dashboard = () => {
   );
 };
 
-export default Dashboard;
+export default NewDashboard;
