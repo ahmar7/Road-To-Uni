@@ -568,6 +568,27 @@ abbr[title] {
     color: black !important;
 }
 
+@media (min-width:1400px) {
+    .dash-field, .web-logo, .dash-profile {
+        height: 80px
+    }
+
+}
+
+@media (min-width:1550px) {
+    .web-logo {
+        height: 100px;
+        margin-top: -23px;
+    }
+}
+
+@media (min-width:210px) {
+    .web-logo {
+        height: 120px;
+        margin-top: -23px;
+    }
+}
+
 @media (max-width:1315px) {
     .navigationbtn-area ul li {
 
